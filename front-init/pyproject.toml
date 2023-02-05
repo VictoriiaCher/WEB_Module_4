@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "front-init"
+version = "0.1.0"
+description = ""
+authors = ["VictoriiaCher <cherevchenko.victoriy@gmail.com>"]
+packages = [{include = "front_init"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
